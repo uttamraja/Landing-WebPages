@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Google Sans";
+    background-color: white;
+    font-weight: 100;
+    color: #70757A;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 23px;
+    gap: 22px;
+    margin-top: 7px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.profile:hover {
+    cursor: pointer;
+}
+
+
+.text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav .navContainer i {
+    border-radius: 50%;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .navContainer i:hover {
+    background-color: rgb(217, 222, 222);
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 322px;
+}
+
+.search {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search .searchBar {
+    height: 47px;
+    width: 584px;
+    border-radius: 30px;
+    border: 0.2px solid darkgrey;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 12px;
+    border: none;
+    /* background-color: red; */
+}
+
+.mic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.mic .microPhone {
+    color: red;
+    font-size: 19px;
+}
+
+.mic .microPhone:hover {
+    cursor: pointer;
+}
+
+.mic .cam {
+    font-size: 19px;
+    margin-right: 13px;
+    color: #4285F4;
+}
+
+.mic .cam:hover {
+    cursor: pointer;
+}
+
+#search {
+    margin-left: 12px;
+    font-size: 23px;
+    border: none;
+}
+
+#searchBox {
+    height: 45px;
+    width: 460px;
+    border: none;
+    outline: none;
+}
+
+.button {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button button {
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    height: 47px;
+    width: 140px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Roboto";
+
+}
+
+
+.button button:hover {
+    background-color: #F8F9FA;
+    border: 0.3px solid #DADCE0;
+    cursor: pointer;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+
+span {
+    color: blue;
+    font-weight: 400;
+}
+
+span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-color: #F2F2F2;
+    /* display: flex; */
+}
+
+.country #country {
+    width: 100%;
+    height: 52px;
+    padding-left: 23px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-radius: 4px;
+}
+
+.country .listCat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 83px;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+
+.country .listCat h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fourCat{
+    line-height: 23px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+.threeCat{
+    line-height: 23px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    text-align: center;
+}

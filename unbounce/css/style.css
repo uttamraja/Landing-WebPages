@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6F6;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.nav {
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.secContainer {
+    width: 100%;
+    height: 100vh;
+}
+
+.logo img {
+    width: 160px;
+    margin-left: 5vw;
+    height: 130px;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin-right: 33px;
+
+}
+
+h3 {
+    margin: 0px 23px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3:hover {
+    cursor: pointer;
+}
+
+h3:hover {
+    color: #0027CC;
+    border-bottom: 1.9px solid #0027CC;
+}
+
+h3:hover {
+    color: #0027CC;
+    border-bottom: 2px solid #0027CC;
+}
+
+.loginBtn {
+    width: 74px;
+    height: 41px;
+}
+
+#trialBtn {
+    background-color: #0027CC;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 154px;
+    margin: 55px 0;
+}
+
+.search {
+    margin-right: 23px;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+    .loginBtn {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        font-size: 40px;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    .search {
+        margin: 13px;
+        font-size: 25px;
+        font-weight: 100;
+    }
+}
+
+#logBtn {
+    color: #0027CC;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1.9px solid #0027CC;
+    border-radius: 3px;
+}
+
+#logBtn:hover {
+    background-color: #0027CC;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#trialBtn {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #0027CC;
+    border: 1.9px solid #0027CC;
+    border-radius: 3px;
+}
+
+#trialBtn:hover {
+    background-color: white;
+    color: #0027CC;
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.body .right {
+    margin-top: 80px;
+    width: 400px;
+    height: 400px;
+    margin-right: 233px;
+}
+
+.body .right img {
+    width: 600px;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body .left {
+    width: 620px;
+    height: 400px;
+    text-align: left;
+    margin-left: 90px;
+}
+
+.text1 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #303030;
+}
+
+.text2 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #303030;
+}
+
+.text3 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #303030;
+}
+
+.text4 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #303030;
+}
+
+.left2 {
+    color: #303030;
+    font-size: 20px;
+    margin-top: 76px;
+}
+
+.secContainer {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secContainer .center {
+    height: 300px;
+    width: 900px;
+    margin-top: 203px;
+}
+
+.center .letter {
+    font-size: 3vw;
+    text-align: center;
+    line-height: 2;
+    color: #303030;
+}
+
+.center .letter1 {
+    text-align: center;
+    font-size: 18.8px;
+    color: #5C5C5C;
+
+}
+
+.getStartBtn {
+    background-color: #0027CC;
+    color: white;
+    height: 72px;
+    width: 219px;
+    border-radius: 3px;
+    border: 2px solid #0027CC;
+    font-size: 14px;
+    font-weight: 790;
+    opacity: 0.9;
+    
+}
+
+.startBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+    opacity: 0.9;
+}
+
+.getStartBtn:hover {
+    opacity: 1;
+}
+
+.colorDiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    background-color: #FFA1A1;
+    height: 10px;
+    width: 50px;
+}

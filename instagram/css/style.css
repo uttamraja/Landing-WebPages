@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+.right {
+
+    width: 50%;
+    line-height: 20px;
+}
+
+.left {
+    width: 50%;
+}
+
+.left img {
+    height: 559px;
+    width: 259px;
+    margin-left: 150px;
+}
+
+.box {
+    display: flex;
+    margin-top: 33px;
+
+}
+
+.right img {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+    margin-left: 70px;
+
+}
+
+.formBox {
+    height: 399px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+
+}
+
+input {
+    height: 38px;
+    width: 270px;
+    margin-left: 43px;
+    border-radius: 4px;
+    border: 0.2px solid grey;
+}
+
+.form {
+    height: 37px;
+    width: 268px;
+    margin-top: 33px;
+    line-height: 3;
+
+}
+
+
+@media (max-width:875px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        position: absolute;
+        margin-top: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+}
+
+.loginBtn {
+    height: 38px;
+    width: 270px;
+    margin-left: 43px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4CB4F8;
+    font-weight: 700;
+    color: white;
+}
+
+.logBtn {
+    line-height: 4.5;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.fb {
+    color: #385194;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.fb img {
+    height: 23px;
+    width: 23px;
+    margin-bottom: 23px;
+}
+
+.fb:hover {
+    cursor: pointer;
+}
+
+.forgot {
+    color: #00376B;
+    margin-left: 90px;
+    line-height: 1;
+}
+
+.forgot:hover {
+    cursor: pointer;
+}
+
+.newUser {
+    height: 60px;
+    width: 351px;
+    border: 1px solid black;
+    margin-top: 11px;
+    border-radius: 3px;
+}
+
+span {
+    color: #4CB4F8;
+
+}
+span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.newUser h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+}
